@@ -31,7 +31,6 @@ var musicList = [
 	"所念皆星河（钢琴版）.mp3",
 	"羽肿 - Rain after Summer.mp3",
 	"诀别书 - 邓垚.mp3",
-	"谷雨 伴奏 - 桑葚上的猴子.mp3",
 	"逆时针向 - Asphyxia.mp3",
 	"阿南亮子 - Refrain.mp3"
 ];
