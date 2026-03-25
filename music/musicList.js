@@ -20,9 +20,10 @@ var musicList = [
 	"River Flows In You (你的心河) (钢琴版).mp3",
 	"Snigellin - Sakura Tears.mp3",
 	"The Way I Still Love You.mp3",
-	"The truth that you leave - Pianoboy高至豪.mp3",
+	"The truth that you leave - Pianoboy高至豪.mp3",
 	"Time Machine - CMJ.mp3",
 	"Valentin - A Little Story.mp3",
+	"Windy Hill.mp3",
 	"Zeraphym 六翼使徒 - Lifeline.mp3",
 	"城南花已开 - 三亩地.mp3",
 	"夏の喚く - 邱有句.mp3",
@@ -31,7 +32,7 @@ var musicList = [
 	"羽肿 - Rain after Summer.mp3",
 	"诀别书 - 邓垚.mp3",
 	"逆时针向 - Asphyxia.mp3",
-	"阿南亮子 - Refrain.mp3"
+	"阿南亮子 - Refrain.mp3",
 ];
 
 
