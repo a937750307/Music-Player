@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="main/css/music.css"/>
+    <script src="main/js/jquery.min.js"></script>
+    <script src='main/js/index.js'></script>
+    <script src="music/musicList.js"></script>
+    <script src="bgimg/bgImgList.js"></script>
+
+</head>
+<body class="body">
+    <div class="grid-music-container f-usn" id="music"></div>
+    <div class="mini" title="最大化" id="mini"></div>
+    <header class="jquery-ripples"></header>
+    <script>
+        var musicPlayer = new Music({ //新建播放器
+            musicList : musicList, //播放列表
+            bgImgList : bgImgList,  //背景列表
+            defaultMode : 2,   //初始播放模式，1列表循环 2随机播放 3单曲循环
+            defaultVolume :.3  //初始播放音量 0 - 1.0 之间
+        });
+
+        // 自动轮播背景图片，每10秒切换一次
+        setInterval(function() {
+            musicPlayer.currentBgImg = (musicPlayer.currentBgImg + 1) % musicPlayer.bgImgList.length;
+            musicPlayer.switchImg(musicPlayer.currentBgImg);
+        }, 10000);
+        $(window).on("load",function() {
+            $(".jquery-ripples").ripples({ //新建水纹
+                resolution: 112,  //分辨率，细致程度
+                dropRadius: 120,  //水纹半径
+                perturbance: 0.001,  //扰动系数，可以理解为水纹强度。
+                interactive : true  //是否开启鼠标互动水纹
+            })
+        });
+    </script>
+
+</body>
+</html>
