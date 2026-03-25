@@ -23,7 +23,6 @@ var musicList = [
 	"The truth that you leave - Pianoboy高至豪.mp3",
 	"Time Machine - CMJ.mp3",
 	"Valentin - A Little Story.mp3",
-	"Windy Hill.mp3",
 	"Zeraphym 六翼使徒 - Lifeline.mp3",
 	"城南花已开 - 三亩地.mp3",
 	"夏の喚く - 邱有句.mp3",
